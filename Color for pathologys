@@ -1,0 +1,39 @@
+COLORS = {
+    'Mouth': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Oropharynx': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Esophagus': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Corpus gastricum': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Antrum pyloricum': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Duodenum': tuple(random.randint(0, 88, 255) for x in range(3)),
+
+# Esophagus
+
+'Reflux esophagitis -La-A-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Reflux esophagitis -La-B-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Reflux esophagitis -La-C-': tuple(random.randint(0, 88, 255) for x in range(3)),
+
+# Esophagus, Corpus gastricum, Antrum pyloricum
+
+'Polyp -type Ip-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Polyp -type Isp-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Polyp -type Is-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Polyp -type IIa-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Polyp -type IIb-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Polyp -type IIc + IIa-': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Polyp -type IIa + IIc-': tuple(random.randint(0, 88, 255) for x in range(3)),
+
+# Corpus gastricum
+
+'Atrophic superficial gastritis': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Non atrophic superficial gastritis': tuple(random.randint(0, 88, 255) for x in range(3)),
+'Superficial gastritis': tuple(random.randint(0, 88, 255) for x in range(3)),
+'H.pylori associated gastritis': tuple(random.randint(0, 88, 255) for x in range(3)),
+
+# Antrum pyloricum
+
+'Deformation antrum pyloricum': tuple(random.randint(0, 88, 255) for x in range(3)),
+
+# Esophagus, Corpus gastricum, Antrum pyloricum, Duodenum
+
+'Ulcerative defect': tuple(random.randint(0, 88, 255) for x in range(3)),
+}
